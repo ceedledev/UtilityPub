@@ -2,7 +2,7 @@
 
 # UtlityPub
 
-[![](https://img.shields.io/discord/793143215057272892.svg?logo=discord&colorB=7289DA)](https://discord.gg/23XZksfu)
+[![](https://img.shields.io/discord/845990986457939969.svg?logo=discord&colorB=7289DA)](https://discord.gg/23XZksfu)
 [![](https://img.shields.io/badge/discord.js-v12.0.0--dev-blue.svg?logo=npm)](https://discord.js.org/)
 [![](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/fabio2fell)
 [![](https://www.codefactor.io/repository/gitlab/galackqsm/alcatraz/badge)](https://www.codefactor.io/repository/gitlab/galackqsm/Alcatraz)
