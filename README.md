@@ -41,5 +41,5 @@ UtilityPub a beaucoup de fonctionnalités, avec **5 catégories principales**:
 
 ## Lien utiles
 
-*   [Discord](https://discord.gg/23XZksfu)
-*   [Github](https://github.com/Kziiz/UtilityPub/)
+*   [Discord](https://discord.gg/j4jfr)
+*   [Github](https://github.com/nionledev/UtilityPub/)
