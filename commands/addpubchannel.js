@@ -91,7 +91,7 @@ module.exports.run = async (client, message, args) => {
                 lastMessageID: 'Aucun'
             }
             server[serverID][channelID].messageEmbed = {
-                description: '**»** [**Serveur Support**](https://discord.gg/BXzHVg3Gpp)\n**»** Si vous quittez, toutes vos pub seront supprimées.\n**»** Vous pouvez poster une pub toutes les **{slowmode}**.',
+                description: '**»** [**Serveur Support**](${config.DISCORDLINK})\n**»** Si vous quittez, toutes vos pub seront supprimées.\n**»** Vous pouvez poster une pub toutes les **{slowmode}**.',
                 footer: `${config.FOOTER}`
             }
         }

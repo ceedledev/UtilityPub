@@ -20,7 +20,7 @@ module.exports.run = async (client, message, args) => {
             new Discord.MessageEmbed()
                 .setTitle('<:erreur:793859889444945970>・Erreur...')
                 .setColor('#2f3136')
-                .setDescription(`Seuls les \`Premium\` peuvent faire cette commande. Si vous souhaitez l'avoir rendez vous sur le serveur support en cliquant [ici](https://discord.gg/nbtcRnSZdU)`)
+                .setDescription(`Seuls les \`Premium\` peuvent faire cette commande. Si vous souhaitez l'avoir rendez vous sur le serveur support en cliquant [ici](${config.DISCORDLINK})`)
                 .setFooter(`${config.FOOTER}`)
         )
     }

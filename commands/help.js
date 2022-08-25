@@ -12,7 +12,7 @@ module.exports.run = (client, message, args) => {
         new Discord.MessageEmbed()
             .setTitle(`📌 **Aide**\n● Bonjour , je suis ${message.client.user.tag} et mon préfixe est \`${config.PREFIX}\` `)
             .setColor('#2f3136')
-            .setDescription(texte + '\n\n📍 **Informations**\n[**Serveur Discord**](https://discord.gg/nbtcRnSZdU)')
+            .setDescription(texte + `\n\n📍 **Informations**\n[**Serveur Discord**](${config.DISCORDLINK})`)
     )
 };
   
