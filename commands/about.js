@@ -5,14 +5,6 @@ const config = require('../config.json');
 
 module.exports.run = async(client, message, args) => {
 
-    
-    var usedMemory = os.totalmem() -os.freemem(), totalMemory = os.totalmem();
-
-    var  getpercentage = ((usedMemory/totalMemory) * 100).toFixed(2) + '%'
-
-    usedMemory = (usedMemory/ Math.pow(1024, 3)).toFixed(2);
-    totalMemory = (totalMemory/ Math.pow(1024, 3)).toFixed(2);
-
         message.channel.send(
             new Discord.MessageEmbed()
                 .setTitle("📌 À propos de **UtilityPub**")

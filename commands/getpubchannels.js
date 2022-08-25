@@ -4,7 +4,7 @@ const config = require('../config.json');
 
 module.exports.run = async (client, message, args) => {
     if(!args[0]){
-        let texte = '__Voici la liste des salons de publicité du serveur.__ Pour plus d\'informations concernant un salon spécifique, faites ``&getpubchannels #salon``.\n';
+        let texte = `__Voici la liste des salons de publicité du serveur.__ Pour plus d\'informations concernant un salon spécifique, faites \`${config.PREFIX}getpubchannels #salon\`.\n`;
         const channels = require(path.resolve(path.join('..', 'container/database/main.json')));
         for(channel in channels[message.guild.id]){
             texte = texte + `\n> <#${channel}>, **ID**: ${channel}`;
@@ -13,7 +13,7 @@ module.exports.run = async (client, message, args) => {
             new Discord.MessageEmbed()
                 .setTitle('<:load:782586939705393193>・Salons de publicité')
                 .setColor('#2f3136')
-                .setDescription(texte + '\n\nPour en ajouter, faites ``&addpubchannel`` et pour en enlever, ``&removepubchannel``.')
+                .setDescription(texte + `\n\nPour en ajouter, faites \`${config.PREFIX}addpubchannel\` et pour en enlever, \`${config.PREFIX}removepubchannel\`.`)
                 .setFooter(`${config.FOOTER}`)
         )
     } else if(args[0]){

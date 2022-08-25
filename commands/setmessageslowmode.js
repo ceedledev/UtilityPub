@@ -71,7 +71,7 @@ module.exports.run = async (client, message, args) => {
             new Discord.MessageEmbed()
                 .setTitle('<:erreur:793859889444945970>・Erreur...')
                 .setColor('#2f3136')
-                .setDescription(`Ce salon n'est pas un salon publicitaire. Veuillez ré-éssayer en mentionnant un salon publicitaire, ou en ajoutant celui ci à l'aide de la commande \`&addpubchannel\`.`)
+                .setDescription(`Ce salon n'est pas un salon publicitaire. Veuillez ré-éssayer en mentionnant un salon publicitaire, ou en ajoutant celui ci à l'aide de la commande \`${config.PREFIX}addpubchannel\`.`)
                 .setFooter(`${config.FOOTER}`)
         )
     }

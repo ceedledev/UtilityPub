@@ -20,7 +20,7 @@ module.exports.run = async (client, message, args) => {
             new Discord.MessageEmbed()
                 .setTitle('<:erreur:793859889444945970>・Erreur...')
                 .setColor('#2f3136')
-                .setDescription(`Veuillez entrer un argument supplémentaire. __Exemple de commande__ : \`&premium add/info/remove @mention/id\``)
+                .setDescription(`Veuillez entrer un argument supplémentaire. __Exemple de commande__ : \`${config.PREFIX}premium add/info/remove @mention/id\``)
                 .setFooter(`${config.FOOTER}`)
         )
     }
@@ -30,7 +30,7 @@ module.exports.run = async (client, message, args) => {
             new Discord.MessageEmbed()
                 .setTitle('<:erreur:793859889444945970>・Erreur...')
                 .setColor('#2f3136')
-                .setDescription(`Veuillez préciser l'utilisateur. __Exemple de commande__ : \`p!premium add/info/remove @mention/id\``)
+                .setDescription(`Veuillez préciser l'utilisateur. __Exemple de commande__ : \`${config.PREFIX}premium add/info/remove @mention/id\``)
                 .setFooter(`${config.FOOTER}`)
         )
     }
