@@ -2,7 +2,7 @@
 
 # UtlityPub
 
-[![](https://img.shields.io/discord/982712971782406244.svg?logo=discord&colorB=7289DA)](https://discord.gg/ultrajoins)
+[![](https://img.shields.io/discord/1030523823566618686.svg?logo=discord&colorB=7289DA)](https://discord.gg/rCTWz2wSuM)
 [![](https://img.shields.io/badge/discord.js-v12.0.0--dev-blue.svg?logo=npm)](https://discord.js.org/)
 [![](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/niondiscord)
 
@@ -40,5 +40,5 @@ UtilityPub a beaucoup de fonctionnalités, avec **5 catégories principales**:
 
 ## Lien utiles
 
-*   [Discord](https://discord.gg/ultrajoins)
+*   [Discord](https://discord.gg/rCTWz2wSuM)
 *   [Github](https://github.com/ceedledev/UtilityPub/)
